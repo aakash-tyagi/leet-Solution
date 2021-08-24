@@ -30,3 +30,7 @@ func isChar(c byte) bool {
 	}
 	return false
 }
+
+func main() {
+	a := ""
+}

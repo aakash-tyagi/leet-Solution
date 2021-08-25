@@ -16,7 +16,7 @@ func mergeTwoSortedLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		return nil
 	}
 
-	l3 := &ListNode{}
+	l3 := new(ListNode)
 
 	if l1.Val < l2.Val {
 		l3.Val = l1.Val

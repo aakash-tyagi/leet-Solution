@@ -12,9 +12,9 @@ func lengthOfLastWord(s string) int {
 
 	l := len(s)
 
+	//counting trailing space after last word
 	for i := l - 1; i >= 0; i-- {
 		if string(s[i]) == " " {
-
 			a++
 		} else {
 			break
@@ -22,11 +22,11 @@ func lengthOfLastWord(s string) int {
 
 	}
 
+	//couting the length of last word
 	for i := l - 1 - a; i >= 0; i-- {
 		if string(s[i]) == " " {
 			break
 		} else {
-
 			b++
 		}
 
@@ -36,7 +36,7 @@ func lengthOfLastWord(s string) int {
 }
 
 func main() {
-	a := "how are you"
+	a := "how are you  "
 	fmt.Println(lengthOfLastWord(a))
 
 }

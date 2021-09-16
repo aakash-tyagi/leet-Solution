@@ -32,6 +32,5 @@ func addDigits(num int) int {
 }
 
 func main() {
-
 	fmt.Println(addDigits(3215))
 }

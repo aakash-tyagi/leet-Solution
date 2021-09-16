@@ -27,7 +27,7 @@ func isPalindrome(s string) bool {
 	return true
 }
 
-func isChar(c byte) bool {
+func isChar(c byte) bool { // checking for the string if the byte is character
 	if ('a' <= c && c <= 'z') || ('0' <= c && c <= '9') {
 		return true
 	}

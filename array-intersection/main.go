@@ -30,11 +30,7 @@ func intersection(nums1 []int, nums2 []int) []int {
 
 }
 
-func main() {
-	a := []int{1,1,2,3}
-	b := []int{1,1,4}
-	fmt.Println(intersection(a,b))
-}
+
 
 
 func main() {

@@ -12,7 +12,7 @@ type ListNode struct {
 func (ln ListNode) print() {
 	curHead := &ln
 	for curHead.Next != nil {
-		fmt.Print(curHead.Val)
+
 		curHead = curHead.Next
 	}
 	fmt.Println(curHead.Val)

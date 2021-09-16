@@ -8,7 +8,6 @@ import (
 func hammingWeight(num uint32) int {
 
 	s := strconv.FormatUint(uint64(num), 2)
-	fmt.Println(s)
 
 	sum := 0
 	for _, j := range s {

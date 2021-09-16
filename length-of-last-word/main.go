@@ -36,7 +36,7 @@ func lengthOfLastWord(s string) int {
 }
 
 func main() {
-	a := "how are you  "
+	a := "how are you"
 	fmt.Println(lengthOfLastWord(a))
 
 }

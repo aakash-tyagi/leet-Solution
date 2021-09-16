@@ -18,7 +18,7 @@ func addDigits(num int) int {
 	for i, j := range str {
 		temp, _ := strconv.Atoi(string(j))
 		sum += temp
-		fmt.Println(sum)
+
 		res = fmt.Sprint(sum)
 		if len(res) == 1 {
 			a, _ = strconv.Atoi(res)

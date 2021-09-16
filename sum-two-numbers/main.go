@@ -9,7 +9,6 @@ func twoSum(numbers []int, target int) []int {
 
 	for i < j {
 		sum := numbers[i] + numbers[j]
-
 		if (sum) == target {
 			break
 		} else if (sum) < target {
@@ -22,6 +21,7 @@ func twoSum(numbers []int, target int) []int {
 }
 
 func main() {
+
 	a := []int{1, 2, 3, 5}
 	fmt.Println(twoSum(a, 3))
 }

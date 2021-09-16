@@ -13,7 +13,7 @@ func hammingWeight(num uint32) int {
 	for _, j := range s {
 
 		if string(j) == "1" {
-			sum += 1
+			sum += 1 //counting number of 1`s in string
 		}
 	}
 

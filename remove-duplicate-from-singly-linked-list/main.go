@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
-
-type ListNode struct {
+type ListNode struct { // creating data structure of listnode
 	Val  int
 	Next *ListNode
 }
@@ -15,7 +11,6 @@ func (ln ListNode) print() {
 
 		curHead = curHead.Next
 	}
-	fmt.Println(curHead.Val)
 
 }
 

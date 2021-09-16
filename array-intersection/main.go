@@ -15,12 +15,12 @@ func intersection(nums1 []int, nums2 []int) []int {
 	res := []int{}
 	m := make(map[int]int)
 	for _,j := range nums1{
-		m[j]++
+		m[j]++					// counting number of paticluar int in ARRAY
 	}
 	
 	for _,j := range nums2{
 		if m[j] > 0 {
-			res = append(res,j)
+			res = append(res,j) // creating array of intersecting number
 			m[j]  = 0
 		}
 	

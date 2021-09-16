@@ -1,6 +1,9 @@
 package main
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 func isPalindrome(s string) bool {
 
@@ -32,5 +35,6 @@ func isChar(c byte) bool {
 }
 
 func main() {
-	a := ""
+	a := "abcba"
+	fmt.Println(isPalindrome(a))
 }

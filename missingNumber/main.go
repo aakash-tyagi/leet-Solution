@@ -8,7 +8,6 @@ import (
 func missingNumber(nums []int) int {
 
 	sort.Ints(nums)
-	fmt.Println(nums)
 
 	for i := 0; i < len(nums); i++ {
 		if i != nums[i] {

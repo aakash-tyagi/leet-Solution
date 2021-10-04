@@ -8,7 +8,6 @@ import (
 func reverseWords(s string) string {
 
 	ss := strings.Fields(s)
-	fmt.Println(ss)
 
 	reverse(&ss, 0, len(ss)-1)
 	return strings.Join(ss, " ")

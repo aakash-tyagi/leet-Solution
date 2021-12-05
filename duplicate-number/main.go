@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
-func findDuplicate(num []int) {
+func findDuplicate(num []int) int {
 
 	mapArr := make(map[int]int)
 
@@ -12,10 +10,10 @@ func findDuplicate(num []int) {
 
 	for k, val := range mapArr {
 		if val > 1 {
-			fmt.Println(k)
+			return k
 		}
 	}
-
+	return 0
 }
 
 func main() {
